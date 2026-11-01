@@ -23,7 +23,7 @@ Lab9-DL/
 ```bash
 python3.12 -m venv venv
 source venv/bin/activate
-pip install torch pandas numpy matplotlib statsforecast holidays pyarrow jupyter
+pip install -r requirements.txt
 cd notebook
 jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 lab9.ipynb
 ```
