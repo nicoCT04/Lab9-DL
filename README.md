@@ -26,10 +26,10 @@ La tabla completa (17 modelos, con tiempos, parámetros, MASE con H = 168, pinba
 
 ```
 Lab9-DL/
-├── Informe_Lab9_DL.pdf          # informe (3 páginas)
 ├── notebook/
 │   └── lab9.ipynb               # notebook completo y ejecutado
 ├── reports/                     # figuras (.png), tablas (.csv) y pronósticos de prueba
+│   ├── Informe_Lab9_SeriesTiempo.pdf   # informe (5 páginas con portada)
 │   ├── tabla_comparativa.csv        # mejor configuración de cada modelo, ordenada por MASE
 │   ├── tabla_iteraciones.csv        # iteraciones de hiperparámetros (solo validación)
 │   └── pronosticos_prueba.parquet   # unique_id, ds, modelo, y_hat (+ p10/p50/p90)
